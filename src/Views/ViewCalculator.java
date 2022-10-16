@@ -1,6 +1,7 @@
 package Views;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class ViewCalculator extends JFrame {
     public ViewCalculator(){
@@ -8,17 +9,7 @@ public class ViewCalculator extends JFrame {
         setSize(340, 530);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(0, 0, 0));
+        setBackground(Color.black);
         setVisible(true);
     }
-
-    public void iniciar(){
-        for (int i = 0; i < 10; i++) {
-            JButton btn = new JButton();
-            btn.setText(String.valueOf(i));
-            btn.setBounds(10, 10, 10, 10);
-            add(btn);
-        }
-    }
-
 }
