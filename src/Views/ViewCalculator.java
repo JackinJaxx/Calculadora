@@ -12,8 +12,6 @@ public class ViewCalculator extends JFrame {
         setBackground(Color.BLACK);
         setUndecorated(true);
         setBarWindow();
-
-
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
