@@ -9,7 +9,7 @@ public class ViewCalculator extends JFrame {
         setLocationRelativeTo(null);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 0, 0));
-
+        setVisible(true);
 
     }
 
